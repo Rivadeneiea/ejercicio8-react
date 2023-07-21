@@ -1,8 +1,18 @@
-# React + Vite
+# Ejercicio 8
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- En esta aplicacion utilizamos un formulario de
+- react bootstrap con validaciones para cuando
+- esten todos los datos completos y para cuando
+- falten datos para llenar
+- se muestra mensaje en alert por pantalla
 
-Currently, two official plugins are available:
+### Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Crear una aplicación web con react que tenga los siguientes componentes:
+
+1. Título “Formulario” con un color de background diferente al color del body.
+2. Formulario, con los campos de Nombre, Apellido, DNI, email y botón que me
+   permita enviar el formulario.
+   Una vez presionado el botón de enviar se debe verificar que todos los campos
+   fueron cargados, y mostrar un alert con el mensaje “datos enviados”, si los datos
+   están incompletos mostrar un alert con el mensaje “Completar todos los datos”.

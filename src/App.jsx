@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Titulo from "./components/Titulo";
+import FormularioControl from "./components/FormularioControl";
 
 function App() {
-  
   return (
     <>
-     <h1>8</h1>
+      <Titulo></Titulo>
+      <div className="text-center">
+        <FormularioControl></FormularioControl>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
