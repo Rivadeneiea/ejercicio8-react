@@ -1,10 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Titulo from "./components/Titulo";
+import FormularioControl from "./components/FormularioControl";
 
 function App() {
   return (
     <>
-      <h1>8</h1>
+      <Titulo></Titulo>
+      <div className="text-center">
+        <FormularioControl></FormularioControl>
+      </div>
     </>
   );
 }
